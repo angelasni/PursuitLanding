@@ -1,0 +1,326 @@
+/** Page Styling **/
+
+@font-face {
+	font-family: 'Avenir Light';
+	src: url('../fonts/avenir-light.woff') format('woff');
+}
+	
+@font-face {	
+	font-family: 'Avenir Black';
+	src: url('../fonts/avenir-black.woff') format('woff');
+}
+	
+@font-face {
+	font-family: 'Reef';
+	src: url('../fonts/Reef.otf') format('opentype');
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.hero {
+	font-family: 'Reef', sans-serif;
+	font-size: 40pt;
+	font-weight: bold;
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+header section ul a:hover {
+	border-bottom: solid 3px #14c2cc;
+	color: #14c2cc;
+	padding-bottom: 27px;
+}
+
+header section ul li:first-child a{
+	color: #56ba48;
+
+}
+
+header section ul li:first-child a:hover{
+	color: #14c2cc;
+	padding-bottom: 27px;
+}
+
+p{
+	font-family: 'Avenir Light', sans-serif;
+	color: white;
+}
+
+h2{
+	font-family: 'Avenir Black', sans-serif;
+	font-size: 36px;
+	/*color: white;*/
+	padding-bottom: .2%;
+	border-bottom: solid 5px;
+	text-align: center;
+}
+
+
+
+header{
+	background: #000000 url(../img/background.jpg) center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+/*Navigation*/
+header section{
+	background: #333;
+	width: 100%;
+}
+
+header img{
+	margin-left: 5px;
+	padding: 1%;
+}
+
+header section ul{
+	float: right;
+	display: block;
+	width: 76%;
+	color: white;
+	font-family: 'Avenir Light';
+	margin-right: 9%;
+}
+
+header section ul li{
+	float: right;
+	margin: 1% 5% 1% 0;
+	padding-top: 2.5%;
+}
+
+
+
+/**hero styling**/
+
+header div{
+	float: right;
+	text-align: right;
+}
+
+header div h1{
+	width: 75%;
+	margin-top: 20%
+}
+
+h1 span{
+	color: #56ba48;
+}
+
+header div a{
+	width: 25%;
+	color: #fff;
+	font-family: 'Avenir Black';
+	letter-spacing: 1px;
+	font-size: 16px;
+	float: right;
+	text-align: center;
+	background: #56ba48;
+	margin: 10% 25% 0 0;
+	padding: 3%;
+}
+
+header div a:hover{
+	color: #fff;
+	background: #14c2cc;
+	margin: 10% 25% 0 0;
+	padding: 3%;
+}
+
+/* Features Styling */
+
+.feature{
+	background: #14c2cc;
+	height: 100vh ;
+	width: 100%;
+	color: #fff;
+}
+
+.articleList article{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0 13% 100px;
+	position: relative;
+}
+
+
+.articleList article p{
+	display: inline;
+	font-size: 20px;
+	width: 38%;
+	position: absolute;
+	top: 10%;
+	left: 43%;
+}
+
+.feature h2{
+	color: #fff;
+	margin: 0 auto;
+	width: 13%;
+	padding: 5% 0 0 0;
+	margin-bottom: 10%;
+	letter-spacing: 1px;
+}
+
+/*download styling*/
+
+.download {
+	height: 100vh;
+	width: 100%;
+	color: #000;
+	position: relative;
+}
+
+.download h2{
+	color: #6a6a6a;
+	width: 40%;
+	font-size: 31px;
+	margin-left: 2%;
+	padding-top: 5%;
+	border: none;
+}
+
+.download p{
+	color: #6a6a6a;
+	font-size: 24px;
+	width: 33%;
+	line-height: 28px;
+	margin-left: 5%;
+	padding-top: 3%;
+}
+
+.download img{
+	float: right;
+	margin-top: 11.5%;
+}
+
+.download article{
+	float: left;
+	display: block;
+}
+
+.download article figure #apple{
+	position: absolute;
+	width: 20%;
+	top: 45%;
+	left: 7%;
+}
+
+.download article figure #play{
+	position: absolute;
+	width: 20%;
+	top: 65%;
+	left: 7%;
+}
+
+.download article figcaption a{
+	color: #989898;
+	font-family: 'Avenir Light', sans-serif;
+	width: 13%;
+	line-height: 24px;
+	font-size: 20px;
+}
+
+.download article #ios{
+	position: absolute;
+	top: 51%;
+	left: 32%;
+	width: 13%;
+}
+
+.download article #google{
+	position: absolute;
+	top: 71%;
+	left: 32%;
+	width: 13%;
+}
+
+.download article figcaption #googlechev{
+	position: absolute;
+	top: 73%;
+	left: 45%;
+	color: #14c2cc;
+}
+
+.download article figcaption #applechev{
+	position: absolute;
+	top: 53%;
+	left: 45%;
+	color: #14c2cc;
+}
+
+/*footer styling*/
+
+footer {
+	background: #24beca;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	float: bottom;
+	position: relative;
+}
+
+.social{
+	position: absolute;
+	right: 6%;
+	top: 1%;
+}
+
+footer img{
+	padding-left: 2px;
+}
+
+.social i{
+	font-size: 30px;
+}
+
+.social li{
+	float: left;
+	padding: 1% 8% 0 8%;
+	width: 32%;
+	margin-left: 1%;
+}
+
+
+.bottom li{
+	float: left;
+	font-family: 'Avenir Light', sans-serif;
+	padding: 0 1%;
+}
+
+.bottom{
+	display: inline-block;
+	position: absolute;
+	width: 80%;
+	left: 13%;
+	top: 10px;
+}
+
+.bottom li:first-child{
+	margin-right: 7%;
+}
+
+
+
