@@ -47,7 +47,7 @@ a:visited {
 header section ul a:hover {
 	border-bottom: solid 3px #14c2cc;
 	color: #14c2cc;
-	padding-bottom: 27px;
+	padding-bottom: 30px;
 }
 
 header section ul li:first-child a{
@@ -57,7 +57,7 @@ header section ul li:first-child a{
 
 header section ul li:first-child a:hover{
 	color: #14c2cc;
-	padding-bottom: 27px;
+	padding-bottom: 30px;
 }
 
 p{
@@ -70,7 +70,6 @@ h2{
 	font-size: 36px;
 	/*color: white;*/
 	padding-bottom: .2%;
-	border-bottom: solid 5px;
 	text-align: center;
 }
 
@@ -97,16 +96,16 @@ header img{
 header section ul{
 	float: right;
 	display: block;
-	width: 76%;
+	width: 50%;
 	color: white;
 	font-family: 'Avenir Light';
-	margin-right: 9%;
+	margin-right: 10%;
 }
 
 header section ul li{
 	float: right;
-	margin: 1% 5% 1% 0;
-	padding-top: 2.5%;
+	margin: 2% 8% 1% 0;
+	padding: 3% 2% 1% 0;
 }
 
 
@@ -157,16 +156,15 @@ header div a:hover{
 	position: absolute;
 	bottom: 10%;
 	left: 48%;
-
 }
 
 /* Features Styling */
 
 .feature{
 	background: #14c2cc;
-	height: 100vh ;
+	height: 100vh;
 	width: 100%;
-	color: #fff;
+	color: #000;
 }
 
 .articleList article{
@@ -191,7 +189,7 @@ header div a:hover{
 .feature h2{
 	color: #fff;
 	margin: 0 auto;
-	width: 13%;
+	width: 14%;
 	padding: 5% 0 0 0;
 	margin-bottom: 10%;
 	letter-spacing: 1px;
@@ -284,6 +282,28 @@ header div a:hover{
 	color: #14c2cc;
 }
 
+/*video styling*/
+
+.video{
+	height: 100vh;
+	background: #000;
+}
+
+.video h2{
+	width: 34%;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5% 0 1%;
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+
+.video video{
+	margin-left: 19%;
+	margin-top: 5%;
+}
+
 /*footer styling*/
 
 footer {
@@ -297,7 +317,7 @@ footer {
 
 .social{
 	position: absolute;
-	right: 6%;
+	right: 2%;
 	top: 1%;
 }
 
