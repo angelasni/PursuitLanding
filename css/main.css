@@ -112,6 +112,9 @@ header section ul li{
 
 
 /**hero styling**/
+header {
+	position: relative;
+}
 
 header div{
 	float: right;
@@ -145,6 +148,16 @@ header div a:hover{
 	background: #14c2cc;
 	margin: 10% 25% 0 0;
 	padding: 3%;
+}
+
+.chevron img{
+	height: 75px;
+	width: 90px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+
 }
 
 /* Features Styling */
